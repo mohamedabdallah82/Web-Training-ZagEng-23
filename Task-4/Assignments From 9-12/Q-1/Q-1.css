@@ -1,0 +1,20 @@
+div{
+    outline: 5px solid;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Shape1{
+    border: 5px solid red;
+}
+
+.Shape2{
+    border: 5px solid;
+    border-color: blue green;
+}
+
+.Shape3{
+    border: 5px dashed;
+    border-color: red green blue yellow;
+}
