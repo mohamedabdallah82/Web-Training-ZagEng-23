@@ -1,0 +1,25 @@
+/* 1st shape:
+div{
+    background-color: #EEE;
+    width: 400px;
+}
+*/
+
+/* 2nd shape:
+div{
+    background-color: #EEE;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+*/
+
+/*
+div{
+    background-color: #EEE;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+*/

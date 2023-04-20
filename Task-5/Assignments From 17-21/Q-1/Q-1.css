@@ -1,0 +1,6 @@
+div{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0px .5px 0 orangered, .5px 1px 0 deepskyblue, 1px 1.5px 0 darkviolet;
+}
