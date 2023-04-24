@@ -1,11 +1,27 @@
-div{
+.one{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid orangered;
+    margin: 10px;
     width: 400px;
 }
 
-div p{
+.one p {
+    background-color: #eee;
+    padding: inherit;
+    border: inherit;
+}
+
+
+.two{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid forestgreen;
+    margin: 10px;
+    width: 400px;
+}
+
+.two p {
     background-color: #eee;
     padding: inherit;
     border: inherit;
