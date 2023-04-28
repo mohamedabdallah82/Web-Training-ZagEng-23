@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.parent{
+    width: 800px;
+    height: 230px;                                                /*الصراحه حاولت اظبطها م غير احدد الطول بس معرفتش*/
+    background-color: rgb(122 122 122 / 30%);
+}
+
+.parent .FullWidth{
+    width: calc((100% - 30px));
+}
+
+.parent .Third{
+    width: calc((100% - 60px) / 3);
+}
+
+.parent .Half{
+    width: calc((100% - 45px) / 2);
+}
+
+.parent .Quarter{
+    width: calc((100% - 75px) / 4);
+}
+
+.parent div{
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.clear{
+    clear: both;
+}

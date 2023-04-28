@@ -1,0 +1,43 @@
+div{
+    width: 400px;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid;
+    border-color: red blue;
+    text-align: center;
+    background-color: #eee;
+    left: calc((100% - 520px) / 2);
+    position: relative;
+}
+
+
+span{
+    color: white;
+    background-color: blue;
+    position: absolute;
+    padding: 2px 10px;
+}
+
+.top-left{
+    top: -12px;
+    left: -15px;
+    border-right: 2px solid red;
+}
+
+.bottom-left{
+    bottom: -12px;
+    left: -15px;
+    border-right: 2px solid red;
+}
+
+.top-right{
+    top: -12px;
+    right: -15px;
+    border-left: 2px solid red;
+}
+
+.bottom-right{
+    bottom: -12px;
+    right: -15px;
+    border-left: 2px solid red;
+}

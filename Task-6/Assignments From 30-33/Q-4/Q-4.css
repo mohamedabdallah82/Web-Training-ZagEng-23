@@ -1,0 +1,43 @@
+table{
+    width: 700px;
+    position: relative;
+    left: calc((100% - 700px) / 2);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+caption{
+    font-weight: bold;
+}
+
+thead{
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+
+tbody{
+    color: black;
+    background-color: #eee;
+}
+
+th,
+td{
+    padding: 10px;
+}
+
+
+.delete,
+.view{
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.view{  
+    background-color: rgb(38, 150, 255);
+}
+
+.delete{
+    background-color: rgb(255, 0, 128);
+}
